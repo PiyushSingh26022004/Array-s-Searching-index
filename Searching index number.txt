@@ -6,18 +6,18 @@ int main()
 {
     int i,j,k;
     int l;
-    cout<<"Enter size of array ";
+    cout<<"Enter Size of Array ";
     cin>>i;
-    cout<<"enter array ";
+    cout<<"Enter Array ";
     int n[i];
     for(int j=0;j<i;j++){
     cin>>n[j];}
-    cout<<"enter searching index number ";
+    cout<<"Enter Searching  Number ";
     cin>>l;
  for(int j=0;j<i;j++)
   if(l==n[j])
   { 
-      cout<<"your array index number is "<<j;
+      cout<<"Your Array's Index Number is "<<j;
       return 0;
   }
    cout <<"This Number is Not exist";
